@@ -12,7 +12,7 @@ var ear= 120;
 
 //🟢Draw Procedure - Runs on Repeat
 void draw(){
-  fill(255,255,255);
+  fill(156, 145, 145);
   strokeWeight(1);
   background(255,255,255,200);
 
@@ -29,7 +29,8 @@ void draw(){
 
   line(150, 200, 250, 200);   // mouth
 
-  noFill();
+  noFill(255,255,255);
+  fill(255,255,255)
   rect(185, 200, 15, teeth); // left tooth
   rect(200, 200, 15, teeth2); // right tooth
   
